@@ -32,7 +32,9 @@ public class Main {
             new MajorityElementSolution(),
             new AddBinarySolution(),
             new DiameterOfBinaryTreeSolution(),
-            new MiddleOfLinkedListSolution()
+            new MiddleOfLinkedListSolution(),
+            new MaxDepthOfBinaryTreeSolution(),
+            new ContainDuplicateSolution()
 
             // Week 3
     );
