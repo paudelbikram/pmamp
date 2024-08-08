@@ -3,6 +3,9 @@ package com.grind75;
 import com.grind75.common.Solution;
 import com.grind75.week1.*;
 import com.grind75.week2.*;
+import com.grind75.week3.InsertIntervalSolution;
+import com.grind75.week3.KClosestPointToOrigin;
+import com.grind75.week3.ZeroOneMatrixSolution;
 
 import java.util.List;
 
@@ -34,9 +37,14 @@ public class Main {
             new DiameterOfBinaryTreeSolution(),
             new MiddleOfLinkedListSolution(),
             new MaxDepthOfBinaryTreeSolution(),
-            new ContainDuplicateSolution()
+            new ContainDuplicateSolution(),
+            new MaximumSubArraySolution(),
 
             // Week 3
+            new InsertIntervalSolution(),
+            new ZeroOneMatrixSolution(),
+            new KClosestPointToOrigin()
+
     );
 
 
