@@ -3,9 +3,7 @@ package com.grind75;
 import com.grind75.common.Solution;
 import com.grind75.week1.*;
 import com.grind75.week2.*;
-import com.grind75.week3.InsertIntervalSolution;
-import com.grind75.week3.KClosestPointToOrigin;
-import com.grind75.week3.ZeroOneMatrixSolution;
+import com.grind75.week3.*;
 
 import java.util.List;
 
@@ -43,7 +41,10 @@ public class Main {
             // Week 3
             new InsertIntervalSolution(),
             new ZeroOneMatrixSolution(),
-            new KClosestPointToOrigin()
+            new KClosestPointToOrigin(),
+            new LongestSubstringWithoutRepeatingCharacters(),
+            new ThreeSum(),
+            new BinaryTreeLevelOrderTraversal()
 
     );
 

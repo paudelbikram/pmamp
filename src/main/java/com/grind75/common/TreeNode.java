@@ -2,7 +2,7 @@ package com.grind75.common;
 
 import java.util.*;
 
-public class TreeNode {
+public class TreeNode implements Comparable<TreeNode> {
     public int val;
     public TreeNode left;
     public TreeNode right;
@@ -107,5 +107,10 @@ public class TreeNode {
     @Override
     public int hashCode() {
         return Objects.hash(val, left, right);
+    }
+
+    @Override
+    public int compareTo(TreeNode o) {
+        return Integer.compare(this.val, o.val);
     }
 }

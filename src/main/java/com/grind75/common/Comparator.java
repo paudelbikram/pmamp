@@ -1,6 +1,7 @@
 package com.grind75.common;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class Comparator {
 
@@ -10,6 +11,14 @@ public class Comparator {
         } else {
             System.out.println("FAILED !!! Expected :" + Arrays.toString(expected) + " Actual : "
                     + Arrays.toString(actual));
+        }
+    }
+
+    public static<T> void compareListOfList(List<List<T>> actual, List<List<T>> expected) {
+        if (actual.equals(expected)) {
+            System.out.println("PASSED !!!");
+        } else {
+            System.out.println("FAILED !!! Expected :" + expected.toString() + " Actual : " + actual.toString());
         }
     }
 
